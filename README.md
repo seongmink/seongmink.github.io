@@ -1,2 +1,2 @@
 # seongmink.github.io
-Kim Seongmin's portfolio
+👨‍💻 Portfolio - https://seongmink.github.io
