@@ -725,7 +725,7 @@
 			}
 		}
 
-		&.avatar {
+		&.profile {
 			border-radius: 100%;
 			overflow: hidden;
 
@@ -1194,7 +1194,7 @@
 			@include vendor('flex-shrink', '0');
 			padding: 3em;
 
-			.avatar {
+			.profile {
 				display: block;
 				margin: 0 auto _size(element-margin) auto;
 				width: 8em;
@@ -1678,7 +1678,7 @@
 				> header {
 					padding: 2em;
 
-					.avatar {
+					.profile {
 						margin: 0 auto (_size(element-margin) * 0.75) auto;
 						width: 6em;
 					}

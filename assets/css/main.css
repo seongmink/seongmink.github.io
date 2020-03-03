@@ -1793,7 +1793,7 @@ input, select, textarea {
 			color: #777;
 			font-size: 1.75em;
 			font-weight: 700;
-			margin-top: -0.75em;
+			margin-top: -1.00em;
 		}
 
 /* Form */
@@ -2187,12 +2187,12 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		.image.avatar {
+		.image.profile {
 			border-radius: 100%;
 			overflow: hidden;
 		}
 
-			.image.avatar img {
+			.image.profile img {
 				border-radius: 100%;
 				display: block;
 				width: 100%;
@@ -2739,7 +2739,7 @@ input, select, textarea {
 			padding: 3em;
 		}
 
-			#header > header .avatar {
+			#header > header .profile {
 				display: block;
 				margin: 0 auto 2.25em auto;
 				width: 8em;
@@ -3189,7 +3189,7 @@ input, select, textarea {
 					padding: 2em;
 				}
 
-					#header > header .avatar {
+					#header > header .profile {
 						margin: 0 auto 1.6875em auto;
 						width: 6em;
 					}
