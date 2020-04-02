@@ -72,11 +72,13 @@
 								<li>
 									<div class="direction-r">
 										<div class="flag-wrapper">
-											<span class="flag">삼성 청년 SW 아카데미</span>
+											<span class="flag" style="font-size: 16px;">삼성 청년 SW 아카데미</span>
 											<span class="time-wrapper"><span class="time">2019.07 ~ ing</span></span>
 										</div>
 										<div class="desc">
 											삼성 청년 SW 아카데미(SSAFY) 대전 2기<br/>
+											공통 프로젝트 Best Team, Best Member<br/>
+											공통 프로젝트 대전 3등
 										</div>
 									</div>
 								</li>
@@ -102,8 +104,8 @@
 										</div>
 										<div class="desc">
 											병장(작전병) 만기 전역<br/>
-											사단 최정예 전투원(충경왕) 문서 작성 분야 2등<br/>
-											특급 전사, 작전 유공 표창<br/>
+											사단 최정예 전투원 문서 작성 분야 2등<br/>
+											특급 전사 달성, 작전 유공 표창<br/>
 										</div>
 									</div>
 								</li>
@@ -136,14 +138,14 @@
 											팔로우 한 사람들과 설정한 지역의 피드를 보여줌<br/>
 											사용자의 전체 통계 및 월별 통계 확인 가능<br/>
 											<strong>행정안전부(주민등록주소-법정동) 데이터 활용</strong><br/>
-											<strong>RESTful, Mybatis, Lombok 활용</strong>
+											<strong>RESTful, Mybatis, Lombok 활용</strong><br/>
+											<a style="text-decoration: underline;" onclick="fooddeuk_architure()">아키텍쳐</a>
 										</p>											
 										<li>개발 기간 : 2020. 01 ~ 2020. 02</li>
 										<li>인　　 원 : 5명</li>
 										<li>개발 환경 : VS Code, STS 4.0, MariaDB<br/>
 											　　　　　　 AWS, Firebase</li>
-										<li>역　　 할 : 기획, DB 설계 및 구현, Back-End
-											　　　　　　 </li>
+										<li>역　　 할 : 기획, DB 설계 및 구현, Back-End</li>
 									</div>
 								</article>
 								<article>
@@ -227,10 +229,31 @@
 					<div class="col-sm-12">
 						<div class="row">
 							<div class="col-sm-12">
-								<video id="pjtVideo" muted width="100%" height="100%" controls="controls" class="video-js vjs-default-skin" data-setup="{}">
+								<video id="pjtVideo" autoplay muted width="100%" height="100%" controls="controls" class="video-js vjs-default-skin" data-setup="{}">
 									<source src="video/healthpartner.mp4" type="video/mp4" />
 								</video>
 								<p style="text-align: center;">해당 영상은 소리가 없습니다.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<div style="cursor:pointer;background-color:#DDDDDD;text-align: center;padding-bottom: 10px;padding-top: 10px;" onClick="closeModal();">닫기
+					<span class="pop_bt modalCloseBtn" style="font-size: 13pt;"></span>
+				</div>
+			</div>
+		</div>
+
+		<div id="fooddeuk_architure" class="searchModal">
+			<div class="search-modal-content">
+				<div class="modal-header">
+					<h1>푸드득(得) 시스템 아키텍쳐</h1>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-12">
+								<img src="images/fooddeuk_architure.png" width="100%" height="100%">
 							</div>
 						</div>
 					</div>
@@ -253,6 +276,9 @@
 		<script>
 			function healthpartner() {
 				$('#foodhelperModal').show();
+			}
+			function fooddeuk_architure() {
+				$('#fooddeuk_architure').show();
 			}
 			function closeModal() {
 				var video = document.getElementById('pjtVideo');
