@@ -76,7 +76,7 @@
 											<span class="time-wrapper"><span class="time">2019.07 ~ ing</span></span>
 										</div>
 										<div class="desc">
-											삼성 청년 SW 아카데미(SSAFY) 대전 2기<br/>
+											삼성 청년 SW 아카데미(SSAFY) 2기<br/>
 											공통 프로젝트 Best Team, Best Member 수상<br/>
 											공통 프로젝트 우수상(대전 3등)<br/>
 											특화 프로젝트 Best Team 수상
@@ -128,6 +128,35 @@
 							<h3>Project</h3><br/>
 							<div class="features">
 								<article>
+									<a href="https://youtube.com/embed/cavllZe0akY?rel=0" target="_blank" class="image"><img src="images/bloom_logo.jpg" style="border: 4px solid;"/>
+										<h5 style="text-align: center;">사진 클릭 시 영상을 볼 수 있습니다.</h5>
+									</a>
+									<div class="inner">
+										<h4>Bloom(Blockchain + room)</h4>
+										<p>
+											하이퍼레저 패브릭을 이용한 부동산 이력 조회<br/>
+											폐쇄형 블록체인(Private Blockchain) 활용<br/>
+											공인중개사 권한을 가진 사용자만 이력 등록 가능<br/>
+											이력 등록 시 체인코드에 맞게 패브릭 원장 등록<br/>
+											+ 포인트 지급, 랭킹에 반영<br/>
+											랭킹 시스템으로 포인트 상위 공인중개사 노출<br/>
+											조회 시 원장에 등록된 데이터를 사용자에게 출력<br/><br/>
+
+											<strong>계약 정보 : 월세, 전세, 임대, 매매</strong><br/>
+											<strong>상태 정보 : 시설, 환경, 유지, 리모델링 등</strong><br/><br/>
+											<strong>행정안전부(도로명 주소) 데이터 활용</strong><br/>
+											<strong>RESTful, Mybatis, Lombok, KaKao API 활용</strong><br/>
+											<a style="text-decoration: underline;" onclick="bloom_architure()">아키텍쳐</a>
+										</p>											
+										<li>개발 기간 : 2020. 03. 23 ~ 2020. 05. 01(약 6주)</li>
+										<li>인　　 원 : 5명</li>
+										<li>개발 환경 : VS Code, STS 4.0, MySQL<br/>
+											　　　　　　 AWS, Docker, Ubuntu</li>
+										<li>역　　 할 : 기획, DB 설계 및 구현, Back-End</li>
+									</div>
+								</article>
+
+								<article>
 									<a href="https://youtube.com/embed/85CoIKklJH4?rel=0" target="_blank" class="image"><img src="images/fooddeuk_logo.jpg" style="border: 4px solid;"/>
 										<h5 style="text-align: center;">사진 클릭 시 영상을 볼 수 있습니다.</h5>
 									</a>
@@ -137,29 +166,31 @@
 											음식 리뷰를 볼 수 있는 SNS 큐레이션<br/>
 											대 분류(시/도)와 소 분류(시/군/구)로 지역을 나눔<br/>
 											팔로우 한 사람들과 설정한 지역의 피드를 보여줌<br/>
-											사용자의 전체 통계 및 월별 통계 확인 가능<br/>
+											사용자의 전체 통계 및 월별 통계 확인 가능<br/><br/>
 											<strong>행정안전부(주민등록주소-법정동) 데이터 활용</strong><br/>
-											<strong>RESTful, Mybatis, Lombok 활용</strong><br/>
+											<strong>RESTful, Mybatis, Lombok, Naver API 활용</strong><br/>
 											<a style="text-decoration: underline;" onclick="fooddeuk_architure()">아키텍쳐</a>
 										</p>											
-										<li>개발 기간 : 2020. 01 ~ 2020. 02</li>
+										<li>개발 기간 : 2020. 01. 07 ~ 2020. 02. 21(약 6주)</li>
 										<li>인　　 원 : 5명</li>
 										<li>개발 환경 : VS Code, STS 4.0, MariaDB<br/>
 											　　　　　　 AWS, Firebase</li>
 										<li>역　　 할 : 기획, DB 설계 및 구현, Back-End</li>
 									</div>
 								</article>
+
 								<article>
-									<a class="image"><img src="images/safefood.jpg" style="border: 4px solid;" onclick="healthpartner()"/>
-										<h5 style="text-align: center;">사진 클릭 시 영상을 볼 수 있습니다.</h5>
+									<a href="https://youtube.com/embed/5FC4BYXjATw?rel=0" target="_blank" class="image"><img src="images/health_partner.jpg" style="border: 4px solid;"/>
+										<h5 style="text-align: center;">사진 클릭 시 영상을 볼 수 있습니다.<br/></h5>
+										<h5 style="text-align: center;"><u>(해당 영상은 소리가 없습니다)</u><br/></h5>
 									</a>
-									<div class="inner">
+									<div class="inner"> 
 										<h4>헬스 파트너(Health Partner)</h4>
 										<p>
 											회원 별 음식 섭취를 관리해주는 Web Application<br/>
 											알레르기 유발 성분 확인 및 섭취량 그래프 구현<br/>
 											달력을 구현하여 날짜(시간)별 섭취량 확인 가능<br/>
-											권한(일반 사용자, 관리자)별 메뉴 구현<br/>
+											권한(일반 사용자, 관리자)별 메뉴 구현<br/><br/>
 											<strong>JSP(Spring) 구현 후 SPA(Vue + Spring Boot)로 수정</strong>
 										</p>											
 										<li>개발 기간 : 2019. 09 ~ 2019. 12</li>
@@ -169,6 +200,7 @@
 										<li>역　　 할 : 기획, DB 설계 및 구현, Full-Stack</li>
 									</div>
 								</article>
+
 								<article>
 									<a class="image"><img src="images/foodhelper.jpg" style="border: 4px solid;" /></a>
 									<div class="inner">
@@ -177,7 +209,7 @@
 											OCR(Google Cloud Vision API)을 활용한<br/>
 											식품정보 인식 App<br/>
 											바코드 밑 번호를 문자 인식하여 제품 확인<br/>
-											등록된 회원정보의 알레르기가 일치하면 <strong><span style="color: red;">경고 </span></strong><br/>
+											등록된 회원정보의 알레르기가 일치하면 <strong><span style="color: red;">경고 </span></strong><br/><br/>
 											<strong>식품의약안전처(식품안전나라) 데이터 활용</strong>
 										</p>											
 										<li>개발 기간 : 2019. 03 ~ 2019. 06</li>
@@ -188,6 +220,7 @@
 											　　　　　　 DB 설계 및 구현</li>
 									</div>
 								</article>
+
 								<article>
 									<a class="image"><img src="images/smartshoerack.jpg" style="border: 4px solid;"/></a>
 									<div class="inner">
@@ -213,7 +246,7 @@
 			<section id="footer">
 				<div class="container">
 					<ul class="copyright">
-						<li>&copy; <script> document.write(new Date().getFullYear()); </script> 김성민 All rights reserved.</li>
+						<li>&copy; <script> document.write(new Date().getFullYear()); </script> 김성민(Seongmin Kim) All rights reserved.</li>
 						<li>Contact : sminggo5@naver.com</li>
 					</ul>
 				</div>
@@ -221,30 +254,6 @@
 		</div>
 
 		<!-- modal -->
-		<div id="foodhelperModal" class="searchModal">
-			<div class="search-modal-content">
-				<div class="modal-header">
-					<h1>헬스 파트너(Health Partner) 시연 영상</h1>
-				</div>
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="row">
-							<div class="col-sm-12">
-								<video id="pjtVideo" autoplay muted width="100%" height="100%" controls="controls" class="video-js vjs-default-skin" data-setup="{}">
-									<source src="video/healthpartner.mp4" type="video/mp4" />
-								</video>
-								<p style="text-align: center;">해당 영상은 소리가 없습니다.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<hr>
-				<div style="cursor:pointer;background-color:#DDDDDD;text-align: center;padding-bottom: 10px;padding-top: 10px;" onClick="closeModal();">닫기
-					<span class="pop_bt modalCloseBtn" style="font-size: 13pt;"></span>
-				</div>
-			</div>
-		</div>
-
 		<div id="fooddeuk_architure" class="searchModal">
 			<div class="search-modal-content">
 				<div class="modal-header">
@@ -266,6 +275,27 @@
 			</div>
 		</div>
 
+		<div id="bloom_architure" class="searchModal">
+			<div class="search-modal-content">
+				<div class="modal-header">
+					<h1>Bloom 아키텍쳐</h1>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-12">
+								<img src="images/bloom_architure.png" width="100%" height="100%">
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<div style="cursor:pointer;background-color:#DDDDDD;text-align: center;padding-bottom: 10px;padding-top: 10px;" onClick="closeModal();">닫기
+					<span class="pop_bt modalCloseBtn" style="font-size: 13pt;"></span>
+				</div>
+			</div>
+		</div>
+
 	<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -275,17 +305,12 @@
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
 		<script>
-			function healthpartner() {
-				$('#foodhelperModal').show();
-			}
 			function fooddeuk_architure() {
 				$('#fooddeuk_architure').show();
 			}
-			function closeModal() {
-				var video = document.getElementById('pjtVideo');
-				video.load();
-				$('.searchModal').hide();
-			};
+			function bloom_architure() {
+				$('#bloom_architure').show();
+			}
 			</script>
 				
 	</body>
