@@ -81,6 +81,7 @@
 											공통 프로젝트 우수상(대전 3등)<br/>
 											특화 프로젝트 Best Team, Best Member 수상<br/>
 											특화 프로젝트 우수상(대전 2등)<br/>
+											심화 프로젝트 Best Team 수상
 										</div>
 									</div>
 								</li>
@@ -129,13 +130,44 @@
 							<h3>Project</h3><br/>
 							<div class="features">
 								<article>
+									<a href="https://youtube.com/embed/BEHOrboUUS8?rel=0" target="_blank" class="image"><img src="images/room_of_truth_mainpage.png" style="border: 4px solid;"/>
+										<h5 style="text-align: center;">사진 클릭 시 영상을 볼 수 있습니다.</h5>
+									</a>
+									<div class="inner">
+										<h4>진실의 방</h4>
+										<h5>블록체인과 빅데이터를 활용한 프롭테크</h5>
+										<p>
+											Bloom(Blockchain + room)의 업그레이드 버전<br/>
+											저장된 이력들의 주소로 주변 시설 데이터 수집<br/>
+											사용자 성별, 나이대 별, 선호도 별
+											(교통, 마트/편의점, 교육시설, 의료시설, 음식점/카페, 문화시설) 추천<br/>
+											주변 시설의 정보로 건물의 점수 차트 시각화<br/>
+											건물 거래 이력(금액 변동)을 분석하여 차트 시각화<br/><br/>
+
+											<strong>Collaborative Filtering(협업 필터링)</strong><br/>
+											<strong>Contents Based Filtering(콘텐츠 기반 필터링) 사용</strong><br/><br/>
+
+											<strong>국토교통부 실거래가 공개시스템 데이터 활용</strong><br/>
+											<strong>행정안전부(도로명 주소) 데이터 활용</strong><br/>
+											<strong>JPA, Lombok, Swagger, KaKao API 활용</strong><br/>
+											<a style="text-decoration: underline;" onclick="room_of_truth_architure()">아키텍쳐 보기</a>
+										</p>											
+										<li>개발 기간 : 2020. 05. 04 ~ 2020. 06. 19(약 7주)</li>
+										<li>인　　 원 : 5명</li>
+										<li>개발 환경 : VS Code, IntelliJ IDEA 2020.1.2<br/>
+											　　　　　　 MySQL 8.0, AWS, Docker, Ubuntu</li>
+										<li>역　　 할 : DB 설계 및 구현, Back-End</li>
+									</div>
+								</article>
+
+								<article>
 									<a href="https://youtube.com/embed/XdfMKYEvzz4?rel=0" target="_blank" class="image"><img src="images/bloom_logo.jpg" style="border: 4px solid;"/>
 										<h5 style="text-align: center;">사진 클릭 시 영상을 볼 수 있습니다.</h5>
 									</a>
 									<div class="inner">
 										<h4>Bloom(Blockchain + room)</h4>
+										<h5>하이퍼레저 패브릭을 이용한 부동산 이력 조회</h5>
 										<p>
-											하이퍼레저 패브릭을 이용한 부동산 이력 조회<br/>
 											폐쇄형 블록체인(Private Blockchain) 활용<br/>
 											공인중개사 권한을 가진 사용자만 이력 등록 가능<br/>
 											이력 등록 시 체인코드에 맞게 패브릭 원장 등록<br/>
@@ -146,8 +178,8 @@
 											<strong>계약 정보 : 월세, 전세, 임대, 매매</strong><br/>
 											<strong>상태 정보 : 시설, 환경, 유지</strong><br/><br/>
 											<strong>행정안전부(도로명 주소) 데이터 활용</strong><br/>
-											<strong>RESTful, MyBatis, Lombok, KaKao API 활용</strong><br/>
-											<a style="text-decoration: underline;" onclick="bloom_architure()">아키텍쳐</a>
+											<strong>MyBatis, Lombok, Swagger, KaKao API 활용</strong><br/>
+											<a style="text-decoration: underline;" onclick="bloom_architure()">아키텍쳐 보기</a>
 										</p>											
 										<li>개발 기간 : 2020. 03. 23 ~ 2020. 05. 01(약 6주)</li>
 										<li>인　　 원 : 5명</li>
@@ -163,14 +195,14 @@
 									</a>
 									<div class="inner">
 										<h4>푸드득(得)</h4>
+										<h5>음식 리뷰를 볼 수 있는 SNS 큐레이션</h5>
 										<p>
-											음식 리뷰를 볼 수 있는 SNS 큐레이션<br/>
 											대 분류(시/도)와 소 분류(시/군/구)로 지역을 나눔<br/>
 											팔로우 한 사람들과 설정한 지역의 피드를 보여줌<br/>
 											사용자의 전체 통계 및 월별 통계 확인 가능<br/><br/>
 											<strong>행정안전부(주민등록주소-법정동) 데이터 활용</strong><br/>
-											<strong>RESTful, MyBatis, Lombok, Naver API 활용</strong><br/>
-											<a style="text-decoration: underline;" onclick="fooddeuk_architure()">아키텍쳐</a>
+											<strong>MyBatis, Lombok, Swagger, Naver API 활용</strong><br/>
+											<a style="text-decoration: underline;" onclick="fooddeuk_architure()">아키텍쳐 보기</a>
 										</p>											
 										<li>개발 기간 : 2020. 01. 07 ~ 2020. 02. 21(약 6주)</li>
 										<li>인　　 원 : 5명</li>
@@ -187,8 +219,8 @@
 									</a>
 									<div class="inner"> 
 										<h4>헬스 파트너(Health Partner)</h4>
+										<h5>회원 별 음식 섭취를 관리해주는 Web Service</h5>
 										<p>
-											회원 별 음식 섭취를 관리해주는 Web Service<br/>
 											알레르기 유발 성분 확인 및 섭취량 그래프 구현<br/>
 											달력을 구현하여 날짜(시간)별 섭취량 확인 가능<br/>
 											권한(일반 사용자, 관리자)별 메뉴 구현<br/><br/>
@@ -209,9 +241,9 @@
 									</a>
 									<div class="inner">
 										<h4>푸드 헬퍼(Food Helper)</h4>
+										<h5>OCR을 활용한 식품정보 인식 App</h5>
 										<p>
-											OCR(Google Cloud Vision API)을 활용한<br/>
-											식품정보 인식 App<br/>
+											Open API (Google Cloud Vision API) 활용<br/>
 											바코드 밑 번호를 문자 인식하여 제품 확인<br/>
 											등록된 회원정보의 알레르기가 일치하면 <strong><span style="color: red;">경고 </span></strong><br/><br/>
 											<strong>식품의약안전처(식품안전나라) 데이터 활용</strong>
@@ -229,8 +261,8 @@
 									<a class="image"><img src="images/smartshoerack.jpg" style="border: 4px solid;"/></a>
 									<div class="inner">
 										<h4>스마트 신발장</h4>
+										<h5>아두이노와 안드로이드를 활용한 스마트 신발장</h5>
 										<p>
-											아두이노와 안드로이드를 활용한 스마트 신발장<br/>
 											자동으로 신발을 넣거나 빼주는 IoT<br/>
 											기계식 주차장에서 아이디어 착안<br/>
 											블루투스 통신을 통해 App의 버튼으로 동작실행<br/>
@@ -301,6 +333,27 @@
 			</div>
 		</div>
 
+		<div id="room_of_truth_architure" class="searchModal">
+			<div class="search-modal-content">
+				<div class="modal-header">
+					<h1>진실의 방 아키텍쳐</h1>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-12">
+								<img src="images/room_of_truth_architecture.png" width="100%" height="100%">
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<div style="cursor:pointer;background-color:#DDDDDD;text-align: center;padding-bottom: 10px;padding-top: 10px;" onClick="closeModal();">닫기
+					<span class="pop_bt modalCloseBtn" style="font-size: 13pt;"></span>
+				</div>
+			</div>
+		</div>
+
 	<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -316,6 +369,10 @@
 			function bloom_architure() {
 				$('#bloom_architure').show();
 			}
+			function room_of_truth_architure() {
+				$('#room_of_truth_architure').show();
+			}
+
 			function closeModal() {
 				$('.searchModal').hide();
 			}
