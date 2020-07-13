@@ -1745,6 +1745,10 @@ input, select, textarea {
 			}
 
 		}
+		
+		.container .contents {
+			font-size: 90%;
+		}
 
 /* Section/Article */
 
