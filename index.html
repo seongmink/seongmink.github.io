@@ -157,6 +157,36 @@
 							<h3>Project</h3><br/>
 							<div class="features">
 								<article>
+									<a href="https://youtube.com/embed/J-IQdZuJM-U?rel=0" target="_blank" class="image"><img src="images/unithis.jpg" style="border: 4px solid;"/>
+										<h5 style="text-align: center;">사진 클릭 시 영상을 볼 수 있습니다.</h5>
+									</a>
+									<div class="inner">
+										<h4>Unithis</h4>
+										<h5>물건 교환 플랫폼 서비스</h5>
+										<p>
+											<ul>
+												<li>가지고 있는 물건과 교환하고자 하는 물건 작성</li>
+												<li>실시간 채팅으로 상대방과 대화하여 거래 성사</li>
+												<li>카테고리 혹은 검색을 통한 물건 검색 가능</li>
+											</ul>
+
+											<strong>행정안전부(주민등록주소-법정동) 데이터 활용 활용</strong><br/>
+											<strong>MyBatis, Lombok, Swagger 활용</strong><br/>
+											<a style="text-decoration: underline;" onclick="unithis_architure()">아키텍쳐 보기</a>
+										</p>
+										<hr/>
+										개발 기간 : 2020. 08. 03 ~ 2020. 09. 05(약 5주)<br/>
+										인　　 원 : 3명<br/>
+										개발 환경 : STS 4.0, VS Code, MySQL 8.0<br/>
+										　　　　　	AWS, Ubuntu<br/>
+										역　　 할 : DB 설계 및 구현, Back-End<br/>
+										기능 구현 : 물건(*), 파일 업로드(*), 검색(*)<br/><br/>
+
+										<strong>(*) 표시는 CRUD를 포함한 모든 기능을 의미합니다.</strong>
+									</div>
+								</article>
+
+								<article>
 									<a href="https://youtube.com/embed/BEHOrboUUS8?rel=0" target="_blank" class="image"><img src="images/room_of_truth_mainpage.png" style="border: 4px solid;"/>
 										<h5 style="text-align: center;">사진 클릭 시 영상을 볼 수 있습니다.</h5>
 									</a>
@@ -187,6 +217,10 @@
 										개발 환경 : IntelliJ IDEA 2020.1.2, VS Code<br/>
 											　　　　　MySQL 8.0, AWS, Docker, Ubuntu<br/>
 										역　　 할 : DB 설계 및 구현, Back-End<br/>
+										기능 구현 : 유저(*), 로그인(JWT), 공인중개사(*), 검색(*),<br/>
+										　　 　　 　파일 업로드, 찜하기(*), 선호도, 랭킹<br/><br/>
+
+										<strong>(*) 표시는 CRUD를 포함한 모든 기능을 의미합니다.</strong>
 									</div>
 								</article>
 
@@ -218,6 +252,10 @@
 										개발 환경 : STS 4.0, VS Code, MySQL 8.0<br/>
 											　　　　　AWS, Docker, Ubuntu<br/>
 										역　　 할 : 기획, DB 설계 및 구현, Back-End<br/>
+										기능 구현 : 유저(*), 로그인(JWT), 공인중개사(*), 검색(*),<br/>
+										　　 　　 　파일 업로드, 찜하기(*), 선호도, 랭킹<br/><br/>
+										
+										<strong>(*) 표시는 CRUD를 포함한 모든 기능을 의미합니다.</strong>
 									</div>
 								</article>
 
@@ -245,6 +283,11 @@
 										개발 환경 : VS Code, STS 4.0, MariaDB 10.4.11<br/>
 											　　　　　AWS, Firebase, Ubuntu<br/>
 										역　　 할 : 기획, DB 설계 및 구현, Back-End<br/>
+										기능 구현 : 유저(*), SMTP, 로그인(JWT), 큐레이션 설정(*),<br/>
+										　　 　　 　게시물(*), 검색(*), 팔로우(*), 좋아요(*),<br/>
+										　　 　　 　스크랩(*), 큐레이션 별 피드, 통계<br/><br/>
+										
+										<strong>(*) 표시는 CRUD를 포함한 모든 기능을 의미합니다.</strong>
 									</div>
 								</article>
 
@@ -315,7 +358,7 @@
 										개발 기간 : 2018. 09 ~ 2018. 12<br/>
 										인　　 원 : 2명<br/>
 										개발 환경 : Arduino Sketch, Android Studio 3.1.4<br/>
-										역　　 할 : Arduino 설계 및 구축<br/>
+										역　　 할 : Arduino 설계 및 구축, 하드웨어 제작<br/>
 									</div>
 								</article>
 							</div>
@@ -398,6 +441,27 @@
 			</div>
 		</div>
 
+		<div id="unithis_architure" class="searchModal">
+			<div class="search-modal-content">
+				<div class="modal-header">
+					<h1>Unithis 아키텍쳐</h1>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-12">
+								<img src="images/unithis_architecture.png" width="100%" height="100%">
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<div style="cursor:pointer;background-color:#DDDDDD;text-align: center;padding-bottom: 10px;padding-top: 10px;" onClick="closeModal();">닫기
+					<span class="pop_bt modalCloseBtn" style="font-size: 13pt;"></span>
+				</div>
+			</div>
+		</div>
+
 	<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -415,6 +479,9 @@
 			}
 			function room_of_truth_architure() {
 				$('#room_of_truth_architure').show();
+			}
+			function unithis_architure() {
+				$('#unithis_architure').show();
 			}
 
 			function closeModal() {
